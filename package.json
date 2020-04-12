@@ -2,7 +2,7 @@
   "name": "tga-stage-2",
   "version": "1.0.0",
   "engines": {
-    "node": "10.16.x"
+    "node": "10.16.2"
   },
   "description": "React SSR with Styled Components",
   "main": "index.js",
