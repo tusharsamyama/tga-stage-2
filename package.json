@@ -5,7 +5,6 @@
     "node": "10.16.2"
   },
   "description": "React SSR with Styled Components",
-  "main": "index.js",
   "scripts": {
     "start": "node ./dist/server",
     "build": "webpack && cp ./src/client/style.css ./dist/"
