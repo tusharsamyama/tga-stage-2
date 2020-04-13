@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-filename-extension */
-import express from 'express';
-import React from 'react';
-import { renderToString } from 'react-dom/server';
-import { ServerStyleSheet } from 'styled-components';
+import express from 'express'
+import React from 'react'
+import { renderToString } from 'react-dom/server'
+import { ServerStyleSheet } from 'styled-components'
 
-import App from './client/App';
-import Layout from './client/Layout';
+import App from './client/App'
+import Layout from './client/Layout'
 
 const port = 3000;
 const server = express();
