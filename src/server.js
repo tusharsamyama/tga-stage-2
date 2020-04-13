@@ -7,7 +7,7 @@ import { ServerStyleSheet } from 'styled-components'
 import App from './client/App'
 import Layout from './client/Layout'
 
-const port = 3000;
+const port = 3456;
 const server = express();
 server.use(express.static('dist'));
 server.use(express.static('images'));
