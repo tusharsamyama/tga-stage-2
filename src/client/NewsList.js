@@ -57,9 +57,5 @@ class NewsList extends React.Component {
   }
 }
 
-NewsList.propTypes = {
-  count: PropTypes.number.isRequired,
-};
-
 export default NewsList;
 
