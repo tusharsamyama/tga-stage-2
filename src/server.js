@@ -32,5 +32,5 @@ server.get('/', (req, res) => {
   res.send(Layout({ title, ...renderedComponent }));
 });
 
-server.listen(process.env.PORT || port);
+server.listen(process.env.PORT || port, '0.0.0.0');
 console.log(`Serving at http://localhost:${port}`);
